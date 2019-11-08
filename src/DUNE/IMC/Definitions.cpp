@@ -28,7 +28,11 @@
 //***************************************************************************
 // Automatically generated.                                                 *
 //***************************************************************************
+<<<<<<< HEAD
 // IMC XML MD5: 1ba4c41588c1672490fe06451fb9be8a                            *
+=======
+// IMC XML MD5: 2a5f30dbbf2c8bf48b108c920bd86353                            *
+>>>>>>> b89b5ccba0c3bed52b7f9081eca54eaa82e6fe7d
 //***************************************************************************
 
 // ISO C++ 98 headers.
@@ -27034,6 +27038,7 @@ namespace DUNE
       IMC::toJSON(os__, "depth", depth, nindent__);
       IMC::toJSON(os__, "alt", alt, nindent__);
     }
+<<<<<<< HEAD
 
     EstimatedMugState::EstimatedMugState(void)
     {
@@ -27114,5 +27119,7 @@ namespace DUNE
       IMC::toJSON(os__, "x", x, nindent__);
       IMC::toJSON(os__, "y", y, nindent__);
     }
+=======
+>>>>>>> b89b5ccba0c3bed52b7f9081eca54eaa82e6fe7d
   }
 }

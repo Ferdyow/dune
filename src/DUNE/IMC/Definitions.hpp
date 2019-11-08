@@ -28,7 +28,11 @@
 //***************************************************************************
 // Automatically generated.                                                 *
 //***************************************************************************
+<<<<<<< HEAD
 // IMC XML MD5: 1ba4c41588c1672490fe06451fb9be8a                            *
+=======
+// IMC XML MD5: 2a5f30dbbf2c8bf48b108c920bd86353                            *
+>>>>>>> b89b5ccba0c3bed52b7f9081eca54eaa82e6fe7d
 //***************************************************************************
 
 #ifndef DUNE_IMC_DEFINITIONS_HPP_INCLUDED_
@@ -25527,6 +25531,7 @@ namespace DUNE
       void
       fieldsToJSON(std::ostream& os__, unsigned nindent__) const;
     };
+<<<<<<< HEAD
 
     //! Estimated MUG State.
     class EstimatedMugState: public Message
@@ -25598,6 +25603,8 @@ namespace DUNE
       void
       fieldsToJSON(std::ostream& os__, unsigned nindent__) const;
     };
+=======
+>>>>>>> b89b5ccba0c3bed52b7f9081eca54eaa82e6fe7d
   }
 }
 

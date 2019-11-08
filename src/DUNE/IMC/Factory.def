@@ -28,7 +28,11 @@
 //***************************************************************************
 // Automatically generated.                                                 *
 //***************************************************************************
+<<<<<<< HEAD
 // IMC XML MD5: 1ba4c41588c1672490fe06451fb9be8a                            *
+=======
+// IMC XML MD5: 2a5f30dbbf2c8bf48b108c920bd86353                            *
+>>>>>>> b89b5ccba0c3bed52b7f9081eca54eaa82e6fe7d
 //***************************************************************************
 
 MESSAGE(1, EntityState)
@@ -346,5 +350,8 @@ MESSAGE(907, SadcReadings)
 MESSAGE(908, DmsDetection)
 MESSAGE(2006, TotalMagIntensity)
 MESSAGE(909, HomePosition)
+<<<<<<< HEAD
 MESSAGE(2001, EstimatedMugState)
+=======
+>>>>>>> b89b5ccba0c3bed52b7f9081eca54eaa82e6fe7d
 #undef MESSAGE
