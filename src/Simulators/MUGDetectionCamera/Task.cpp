@@ -283,9 +283,9 @@ namespace Simulators
       simulateError(double altitude, double &xNED, double &yNED)
       {
           double xError, yError;
-
+          double avgResolution = 0.5 * (m_args.horizontalResolution + m_args.verticalResolution);
           // normalised with 10m and 1000 pixels, random in two directions
-          int normalisingFactor = 2e4;
+          double normalisingFactor = 2*10*avgResolution;
 
           // Error should be related to: height and number of pixels
           xError = altitude * m_args.horizontalResolution / normalisingFactor;
