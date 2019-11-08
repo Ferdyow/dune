@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSimulators.MUGDetectionCamera.a  CMakeFiles/Simulators.MUGDetectionCamera.dir/src/Simulators/MUGDetectionCamera/Task.cpp.o
+/usr/bin/ranlib libSimulators.MUGDetectionCamera.a

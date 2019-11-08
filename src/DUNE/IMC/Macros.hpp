@@ -28,7 +28,7 @@
 //***************************************************************************
 // Automatically generated.                                                 *
 //***************************************************************************
-// IMC XML MD5: 009a5046be102f40bfccc623630722a7                            *
+// IMC XML MD5: 1ba4c41588c1672490fe06451fb9be8a                            *
 //***************************************************************************
 
 #ifndef DUNE_IMC_MACROS_HPP_INCLUDED_
@@ -662,5 +662,9 @@
 #define DUNE_IMC_DMSDETECTION 908
 //! TotalMagIntensity identification number.
 #define DUNE_IMC_TOTALMAGINTENSITY 2006
+//! HomePosition identification number.
+#define DUNE_IMC_HOMEPOSITION 909
+//! EstimatedMugState identification number.
+#define DUNE_IMC_ESTIMATEDMUGSTATE 2001
 
 #endif

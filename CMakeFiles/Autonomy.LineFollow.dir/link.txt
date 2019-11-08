@@ -1,0 +1,2 @@
+/usr/bin/ar qc libAutonomy.LineFollow.a  CMakeFiles/Autonomy.LineFollow.dir/src/Autonomy/LineFollow/Task.cpp.o
+/usr/bin/ranlib libAutonomy.LineFollow.a
